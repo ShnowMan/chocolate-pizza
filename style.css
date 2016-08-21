@@ -1,5 +1,12 @@
 body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  min-width: 47em;
+}
 
+h1 {
+  margin: 0;
 }
 
 header {
@@ -10,26 +17,152 @@ main {
 
 }
 
+footer {
+  text-align: center;
+}
+
 ul {
   list-style: none;
 }
 
-.ingredient-list {
+header img {
+  display: inline;
+}
+
+.flex-full {
+  display: flex;
+  width: 100%;
+}
+
+.flex-content {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+
+.flex-content h2 {
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+.flex-content p {
+  margin-top: 0;
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.fill-image {
+  width: 100%;
+  height: auto;
+}
+
+.delicious {
+  width: 30%;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.rss-mail {
+  padding-left: 10px;
+}
+
+.logo p {
+  font-size: 9px;
+  margin: 0;
+  color: grey;
+  margin-left: 5px;
+}
+
+.logo h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 37px;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.directions {
+  text-indent: 40px;
+  font-family: times;
+  color: grey;
+}
+
+.nav-flex ul {
+  display: flex;
+}
+
+.nav-flex li {
+  margin: 1px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#ingredient-list {
   background-image: url(images/list-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: initial;
+  background-size: 44em;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  padding-bottom: 29px;
+}
+
+#ingredient-list p {
+  margin: 0 4px;
+  padding: 0 39px;
+  width: 30%;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 15pt;
 }
 
 .hr-main {
-
+  width: 100%;
+  height:9px;
+  border-style: none;
+  background: repeating-linear-gradient(45deg, transparent, transparent 2px, #000 2px, #000 3px);
+  padding: 50px, 0;
+  margin-top: 25px;
 }
 
 .hr-footer {
   text-align: center;
+  padding-top: 50px;
 }
 
 .hr-footer img {
   position: relative;
   top: -26px;
+}
+
+.footer-padding {
+  margin: 0;
+}
+
+.vanessa {
+  display: flex;
+}
+
+.vanessa img {
+  width: 68px;
+  height: 71px;
+}
+
+.share-button {
+  color: white;
+  background-color: #993300;
+  padding: 16px 30px;
+  border-style: none;
+  margin: 22px 0;
+  margin-left: 8%;
+}
+
+#print {
+  justify-content: flex-end;
+  width: 5%;
 }

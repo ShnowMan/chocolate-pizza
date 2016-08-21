@@ -4,65 +4,83 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img src="Images/logo.png" alt="" />
-      <h2>Delicious</h2>
-      <p>THE BEST FOOD BLOG ON THE WEB</p>
-      <ul class = "social-media">
-        <li><img src="Images/fb-icon.png" alt="" /></li>
-        <li><img src="Images/twit-icon.png" alt="" /></li>
-        <li><img src="Images/gp-icon.png" alt="" /></li>
-        <li><img src="Images/insta-icon.png" alt="" /></li>
-        <li><img src="Images/flic-icon.png" alt="" /></li>
-        <li><img src="Images/pint-icon.png" alt="" /></li>
-      </ul>
-      <ul class = "rss-mail">
-        <li><img src="Images/rss-icon.png" alt="" /></li>
-        <li><img src="Images/mail-icon.png" alt="" /></li>
-      </ul>
-      <hr>
+    <header class="flex-full">
+      <section class="delicious">
+        <img src="Images/logo.png" alt="" />
+        <section class="logo">
+          <h1>Delicious</h1>
+          <p>THE BEST FOOD BLOG ON THE WEB</p>
+        </section>
+      </section>
+      <section class="nav-flex">
+        <ul class = "social-media">
+          <li><img src="Images/fb-icon.png" alt="" /></li>
+          <li><img src="Images/twit-icon.png" alt="" /></li>
+          <li><img src="Images/gp-icon.png" alt="" /></li>
+          <li><img src="Images/insta-icon.png" alt="" /></li>
+          <li><img src="Images/flic-icon.png" alt="" /></li>
+          <li><img src="Images/pint-icon.png" alt="" /></li>
+        </ul>
+        <ul class = "rss-mail">
+          <li><img src="Images/rss-icon.png" alt="" /></li>
+          <li><img src="Images/mail-icon.png" alt="" /></li>
+        </ul>
+      </section>
     </header>
-
+    <hr class="hr-main">
     <main>
-      <h1>Chocolate Pizza</h1>
-      <p>POSTED ON 15 DEC 2013/DESERTS</p>
-
-      <p id = "print" ><img src="Images/print-icon.png" alt="" />Print</p>
-
-      <img src="Images/choco-pizza.png" alt="" />
-      <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-      <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig  mixture is cooled.</p>
-      <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-      <div class="ingredient-list">
-        <p>1 1/2 cups milk</p>
-        <p>1/2 cups mascarpone</p>
-        <p>1/2 tsp pink salt</p>
-        <p>1 lb Black Mission Eggs</p>
-        <p>1/2 cup brown sugar</p>
-        <p>2-4 tbsp water</p>
-        <p>1 1/2 cups heavy cream</p>
-        <p>1/3 granulated sugar</p>
-        <p>2 egg yolks</p>
-        <p>1 lemon, juiced</p>
-        <p>2 tbsp butter</p>
-        <p>1 cup honey roasted pecans, roughly chopped</p>
+      <section class="flex-full">
+        <section class="flex-content">
+          <h2>Chocolate Pizza</h2>
+          <p>POSTED ON 15 DEC 2013/DESSERTS</p>
+        </section>
+        <p id = "print"><img src="Images/print-icon.png" alt="" />Print</p>
+      </section>
+      <img class="fill-image" src="Images/choco-pizza.png" alt="" />
+      <section class="directions">
+        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig  mixture is cooled.</p>
+        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+      </section>
+      <div id="ingredient-list">
+        <p>☐ 1 1/2 cups milk</p>
+        <p>☐ 1/2 cups mascarpone</p>
+        <p>☐ 1/2 tsp pink salt</p>
+        <p>☐ 1 lb Black Mission Eggs</p>
+        <p>☐ 1/2 cup brown sugar</p>
+        <p>☐ 2-4 tbsp water</p>
+        <p>☐ 1 1/2 cups heavy cream</p>
+        <p>☐ 1/3 granulated sugar</p>
+        <p>☐ 2 egg yolks</p>
+        <p>☐ 1 lemon, juiced</p>
+        <p>☐ 2 tbsp butter</p>
+        <p>☐ 1 cup honey roasted pecans, roughly chopped</p>
       </div>
       <hr class="hr-main">
     </main>
-    <section>
+    <section class="vanessa">
       <img src="images/van-pic.png" alt="" />
-      <h3>Vanessa Stevenson</h3>
-      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      <section>
+        <h3>Vanessa Stevenson</h3>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </section>
+      <button class="share-button" type="button" name="button">SHARE RECIPE</button>
     </section>
     <footer>
-      <div class="hr-footer">
-        <hr>
-        <img src="images/small-logo.png" alt=""/>
-      </div>
+      <section class = "footer-padding">
+        <div class="hr-footer">
+          <hr>
+          <img src="images/small-logo.png" alt=""/>
+        </div>
+      </section>
       <p>Delicious &copy; 2013 - All Rights Reserved</p>
       <p>Proudly published with Ghost.</p>
     </footer>
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
