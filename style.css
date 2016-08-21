@@ -101,21 +101,23 @@ header img {
   justify-content: space-around;
 }
 
-.ingredient-list {
+#ingredient-list {
   background-image: url(images/list-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: initial;
+  background-size: 44em;
   display: flex;
   flex-wrap: wrap;
   padding: 15px 15px;
+  padding-bottom: 29px;
 }
 
-.ingredient-list p {
-  margin: 2px 0;
-  padding: 0 8%;
+#ingredient-list p {
+  margin: 0 4px;
+  padding: 0 39px;
   width: 30%;
-
+  font-family: 'Patrick Hand', cursive;
+  font-size: 15pt;
 }
 
 .hr-main {
