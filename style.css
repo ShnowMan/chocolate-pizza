@@ -57,6 +57,13 @@ header img {
 .logo p {
   font-size: 9px;
   margin: 0;
+  color: grey;
+  margin-left: 5px;
+}
+
+.logo h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 37px;
 }
 
 .nav-flex {
@@ -67,6 +74,8 @@ header img {
 
 .directions {
   text-indent: 40px;
+  font-family: times;
+  color: grey;
 }
 
 .nav-flex ul {
@@ -92,6 +101,7 @@ header img {
   margin: 2px 0;
   padding: 0 8%;
   width: 30%;
+
 }
 
 .hr-main {
