@@ -1,0 +1,19 @@
+.ingredient-list {
+  background-image: url(images/list-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hr-main {
+
+}
+
+.hr-footer {
+  text-align: center;
+}
+
+.hr-footer img {
+  position: relative;
+  top: -26px;
+}
