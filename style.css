@@ -1,3 +1,19 @@
+body {
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+ul {
+  list-style: none;
+}
+
 .ingredient-list {
   background-image: url(images/list-bg.png);
   background-repeat: no-repeat;
