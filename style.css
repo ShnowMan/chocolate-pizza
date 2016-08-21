@@ -1,5 +1,11 @@
 body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
 
+h1 {
+  margin: 0;
 }
 
 header {
@@ -12,6 +18,53 @@ main {
 
 ul {
   list-style: none;
+}
+
+header img {
+  display: inline;
+}
+
+.flex-full {
+  display: flex;
+  width: 100%;
+}
+
+.fill-image {
+  width: 100%;
+  height: auto;
+}
+
+.delicious {
+  width: 30%;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.rss-mail {
+  padding-left: 10px;
+}
+
+.logo p {
+  font-size: 9px;
+  margin: 0;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.nav-flex ul {
+  display: flex;
+}
+
+.nav-flex li {
+  margin: 1px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .ingredient-list {
